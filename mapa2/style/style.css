@@ -1,0 +1,68 @@
+body{
+    background-image: url(mapa-de-vista-superior-em-fundo-azul.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    float: right;
+    background-color: #5935A1;
+    width: 40%;
+    height: 100vh;
+    justify-content: center;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 65%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.titulo{
+    text-align: center;
+    padding: 5%;
+    font-weight: bold;
+}
+
+.cep{
+    align-items: center;
+    padding: 5%;
+    font-weight: bold;
+}
+
+.motivo{
+    font-weight: bold;
+    padding: 5%;
+}
+
+.cep input{
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    border: 0px;
+}
+
+.motivo input{
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    border: 0px;
+}
+
+.btn_alerta{
+    padding: 5%;
+}
+
+.btn_alerta a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    color: #5935A1;
+}

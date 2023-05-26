@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    list-style-type: none;
+    align-items: baseline;
+    background-color: #5935A1;
+}
+
+
+.navbar li {
+    float: left;
+    list-style-type: none;
+}
+
+.navbar li a {
+    padding:16px;
+    text-decoration: none;
+  }
