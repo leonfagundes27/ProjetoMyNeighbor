@@ -4,8 +4,8 @@ Juliano Ramalho
 
 Lucas Adami
 
-Leon 
+Leon Fagundes
 
 Matheus Garibaldi
 
-Vitor 
+Vitor Ramalho
