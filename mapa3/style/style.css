@@ -1,0 +1,70 @@
+body {
+    background-image: url(/img/2981189.jpg);
+    background-size: cover;
+    margin: 0;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    line-height: 0px;
+}
+
+#box {
+    display: flex;
+    border-radius: 25px;
+    background-color: #5935A1;
+    color: white;
+    border: solid 0px;
+    flex-direction: column;
+}
+
+
+legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    border: solid 4px #5935A1;
+    border-radius: 25px;
+    width: 30%;
+    height: 50px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.inside_box {
+    display: flex;
+    align-items: baseline;
+    height: 30%;
+}
+
+#inside_box,
+label {
+    margin-left: 15px;
+}
+
+#inside_box,
+button {
+    margin-left: 150px;
+    border-radius: 25px;
+    width: 200px;
+    height: 30px;
+    color: #5935A1;
+    border: solid 0px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+#icon_user{
+    height: 290px;
+    margin-right: 0px;
+}
