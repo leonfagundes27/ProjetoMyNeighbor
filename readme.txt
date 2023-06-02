@@ -1,11 +1,11 @@
 Projeto desenvolvido por:
 
-Juliano Ramalho
+Juliano Aparecido Ramalho
 
-Lucas Adami
+Lucas Adami Gomes
 
-Leon 
+Leon Pereira Pinto Fagundes
 
-Matheus Garibaldi
+Matheus Garibaldi Rodrigues
 
-Vitor 
+Vitor Ruan Firmino de Oliveira 
