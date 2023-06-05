@@ -1,0 +1,52 @@
+body{
+    background-color: #5935A1;
+    font-family: 'Roboto Flex', sans-serif;
+  }
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5935A1;
+    font-family: 'Roboto Flex', sans-serif;
+    
+  }
+  
+  .subscription-plan {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    background-color: #f2f2f2;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .subscription-plan h2 {
+    color: #333;
+  }
+  
+  .subscription-plan h3 {
+    color: #666;
+  }
+  
+  .subscription-plan ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .subscription-plan li {
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+	border-radius: 20px;
+  }
