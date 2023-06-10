@@ -1,0 +1,68 @@
+.menu {
+    display: block;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.configuracoes{
+    border-radius: 10px;
+    text-align: right;
+    width: 15%;
+    display: block;
+    float: left;
+    background-color: #9979da;
+    position: relative;
+    left: 95px;
+}
+#titulo{
+    position: relative;
+    left: 110px;
+
+}
+.conta{
+    width: 50%;
+    float: right;
+}
+.noti,.privacidade,.idioma,.ajuda{
+    float: right;
+    width: 50%;
+    clear: both;
+    border-top: #7058a1 1px solid;    
+}
+button {
+    background-color: white;
+    border: white;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 150px;
+}
+#nome, #tel, #em, #som, #bloq, #sil, #fale, #idi
+{
+    background-color: rgb(245, 239, 239);
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 20px;
+    border-radius: 20px;
+}
+.linha {
+    position: absolute;
+    left: 30%;
+    top: 0;
+    bottom: 0;
+    height: 1000px;
+    width: 1px;
+    background-color:#7058a1;
+    transform: translateX(-50%);
+  }
+.divis{
+    position: relative;
+    right: 210px;
+}
+#conti, #priv, #pref, #central{
+    text-align: center;
+}
