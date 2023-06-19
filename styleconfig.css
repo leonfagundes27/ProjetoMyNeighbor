@@ -3,6 +3,7 @@
 }
 body{
     font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
 }
 .configuracoes{
     border-radius: 10px;
@@ -12,12 +13,11 @@ body{
     float: left;
     background-color: #9979da;
     position: relative;
-    left: 95px;
+    left: 100px;
 }
 #titulo{
     position: relative;
     left: 110px;
-
 }
 .conta{
     width: 50%;
@@ -39,6 +39,15 @@ button {
     margin-bottom: 10px;
     border-radius: 30px;
     width: 150px;
+    transition: 0.3ms;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.05);
+    background-color: blueviolet;
+}
+#inf{
+    text-align: center;
 }
 #nome, #tel, #em, #som, #bloq, #sil, #fale, #idi
 {
@@ -46,14 +55,12 @@ button {
     border: 1px solid gray;
     margin-bottom: 10px;
     width: 300px;
-    height: 20px;
+    height: 30px;
     border-radius: 20px;
 }
 .linha {
     position: absolute;
     left: 30%;
-    top: 0;
-    bottom: 0;
     height: 1000px;
     width: 1px;
     background-color:#7058a1;
@@ -66,3 +73,4 @@ button {
 #conti, #priv, #pref, #central{
     text-align: center;
 }
+
