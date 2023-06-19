@@ -5,37 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Configurações</title>
-    <link rel="stylesheet" href="styleconfig.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="linha"></div>
         <h2 id="titulo">Configurações</h2>
         <div class="menu">
             <div class="configuracoes">
-                <button>Conta</button>
-                <button>Notificações</button>
-                <button>Privacidade</button>
-                <button>Idioma</button>
-                <button>Ajuda</button>
+              <button onclick="scrollToSection('conta')">Conta</button>
+              <button onclick="scrollToSection('noti')">Notificações</button>
+              <button onclick="scrollToSection('privacidade')">Privacidade</button>
+              <button onclick="scrollToSection('idioma')">Idioma</button>
+              <button onclick="scrollToSection('ajuda')">Ajuda</button>
             </div>
         <div class="divis">
-            <div class="conta">
+            <div class="conta" id="conta">
                 <form>
                 <h3>Conta</h3>
                 <h4>Informações da Conta:</h4>
-                <div id="conti">
-                    <label for='nome'>Nome do usuário:</label>
+                <div id="inf">
+                    <label for='nome'>Nome do usuário: </label>
                     <input type="text" id='nome' placeholder="Adicionar">
                 <div>
                     <label for='tel'>Telefone:</label>
                     <input type="tel" id='tel' placeholder="Adicionar">
                 </div>
-                    <label for="em">E-mail:</label>
+                    <label for="em">E-mail: </label>
                     <input type="email" id="em" placeholder="Adicionar">
                 </div>
                 </form>
             </div>
-        <div class="noti">
+        <div class="noti" id="noti">
             <form>
                 <h3>Notificações</h3>
                 <h4>Preferências:</h4>
@@ -48,6 +48,7 @@
                     <div>
                     <p>Som das Notificações:</p>
                         <select id="som">
+                            <option value="" disabled selected>Selecionar</option>
                             <option value="op1">Opção 1</option>
                             <option value="op2">Opção 2</option>
                             <option value="op3">Opção 3</option>
@@ -56,34 +57,35 @@
                     </div>
             </form>
         </div>
-        <div class="privacidade">
+        <div class="privacidade" id="privacidade">
             <form>
                 <h3>Privacidade</h3>
-                <h4>Preferências:</h4>
+                <h4>Preferências: </h4>
                 <div id="priv">
-                    <p>Quem pode ver minhas publicações e alertas:</p>
+                    <p>Quem pode ver minhas publicações e alertas: </p>
                     <p><label>Apenas amigos</label>
                     <input type="checkbox">
                     <label>Todos</label>
                     <input type="checkbox"></p>
                     <div>
-                        <label for="bloq">Bloquear</label>
+                        <label for="bloq">Bloquear: </label>
                         <input type="text" id="bloq" placeholder="Adicionar">
                     </div>
                     <div>
-                        <label for="sil">Silenciar</label>
+                        <label for="sil">Silenciar: </label>
                         <input type="text" id="sil" placeholder="Adicionar">
                     </div>
                 </div>
             </form>
         </div>
-        <div class="idioma">
+        <div class="idioma" id="idioma">
             <form>
                 <h3>Idioma</h3>
                 <h4>Preferências:</h4>
                 <div id="pref">
-                    <label>Selecione o Idioma:</label>
+                    <label>Selecione o Idioma: </label>
                     <select id="idi">
+                        <option value="" disabled selected>Selecionar</option>
                         <option value='ing'>Inglês</option>
                         <option value="por">Português</option>
                         <option value="esp">Espanhol</option>
@@ -91,18 +93,23 @@
                 </div>
             </form>
         </div>
-        <div class="ajuda">
+        <div class="ajuda" id="ajuda">
             <form>
             <h3>Ajuda</h3>
             <h4>Central de Ajuda</h4>
             <div id="central">
-                <label for="fale">Fale Conosco</label>
+                <label for="fale">Fale Conosco: </label>
                 <input type="text" id="fale" placeholder="Descreva seu problema">
-                <p>Termos de política e privacidade</p>
+                <p>Termos de política e privacidade: </p>
             </div>
             </form>
         </div>
         </div>
         </div>
+        <script>
+          function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });}
+        </script>
 </body>
 </html>
